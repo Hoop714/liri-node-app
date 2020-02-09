@@ -14,7 +14,7 @@ LIRI allows a user to input a command and returns the information that the user 
 *Command line input*: node liri.js concert-this <'band/artist'>
 
 *Example*:
-![image](./images/concert-this.png)
+![image1](https://github.com/Hoop714/liri-node-app/blob/master/images/concert-this.PNG?raw=true)
 
 2. **Spotify-This-Song**: user inputs a song name into the command line following the spotify-this-song argument. The Node-Spotify-API module sends a request to the Spotify API. Information about the song will be returned. If no song is added to the command line, information for 'The Sign' by Ace of Base will be returned. 
 
