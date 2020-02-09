@@ -21,19 +21,21 @@ LIRI allows a user to input a command and returns the information that the user 
 *Command line input*: node liri.js spotify-this-song <'song name'>
 
 *Example*:
+![image2](https://github.com/Hoop714/liri-node-app/blob/master/images/spotify-this-song.PNG?raw=true)
 
 3. **Movie-This**: user inputs a movie into the command line following the movie-this argument. The Axios node module then sends a request to the OMDB API. Information about the movie will be returned. If no movie is entered into the command line, the information for 'Mr. Nobody' will be returned. 
 
 *Command line input*: node liri.js movie-this <'movie name'>
 
 *Example*:
+![image3](https://github.com/Hoop714/liri-node-app/blob/master/images/movie-this.PNG?raw=true)
 
 4. **Do-What-It-Says**: user does not need to input an argument following the do-what-it-says argument. This function sources the random.txt file for a song name. After the information from random.txt is grabbed, the spotify-this-song function is called. Information about the song on the random.txt file is returned.
 
 *Command line input*: node liri.js do-what-it-says
 
 *Example*:
-
+![image4](https://github.com/Hoop714/liri-node-app/blob/master/images/do-what-it-says.PNG?raw=true)
 
 ---
 ## Technologies Used
